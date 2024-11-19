@@ -1,0 +1,36 @@
+#include<iostream>
+using namespace std;
+
+void display(int);
+void display(double);
+void display(char);
+
+
+int main()
+{
+	double d = 3.0;
+	float f = 2.0;
+	int i = 4;
+	char c = 'A';
+	short s = 7;
+	
+	display(d);
+	display(f);
+	display(i);
+	display(c);
+	display(s);
+
+}
+
+void display(int x)
+{
+	cout << "A int:" << x << endl;
+}
+void display(double x)
+{
+	cout << "A double:" << x << endl;
+}
+void display(char x)
+{
+	cout << "A char:" << x << endl;
+}
